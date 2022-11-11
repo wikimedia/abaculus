@@ -105,7 +105,7 @@ describe('create list of tile coordinates', function() {
                 { z: zoom, x: 12, y: 17, px: 716, py: -768 },
                 { z: zoom, x: 12, y: 18, px: 716, py: 256 }
             ],
-            dimensions: { x: width, y: height },
+            dimensions: { x: width * scale, y: height * scale },
             center: { row: 18, column: 11, zoom: zoom },
             scale: scale
         };
