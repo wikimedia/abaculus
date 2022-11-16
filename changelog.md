@@ -1,5 +1,9 @@
 # CHANGELOG
 
+# v3.1.1
+* Fixes tile size calculation
+* Bump dependencies
+
 # v3.1.0
 
 * Update mocha to 6.x
