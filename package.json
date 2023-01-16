@@ -6,6 +6,7 @@
   "contributors": [
     "Yuri Astrakhan <yurik@wikimedia.org>"
   ],
+  "files": ["index.js"],
   "scripts": {
     "test": "mocha -R spec"
   },
