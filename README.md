@@ -30,7 +30,7 @@ Usage and example formatting below, or see the [tests](https://github.com/mapbox
 
 `format` (optional): `png` or `jpeg`, default is `png`.
 
-`quality` (optional): when used with `jpeg` format, accepts 1-100 and defaults to 80. when used with `png` format, accepts 2-256 (# of colors to reduce the image to) and defaults to none.
+`quality` (optional): when used with `jpeg` format, accepts 1-100 and defaults to 85. when used with `png` format, accepts 2-256 (# of colors to reduce the image to) and defaults to 256.
 
 `tileSize` (optional, defaults to `256`): Specifies input size of tiles used in `getTile` function.
 

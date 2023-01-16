@@ -12,7 +12,7 @@ function abaculus(arg, callback) {
         bbox = arg.bbox || null,
         getTile = arg.getTile || null,
         format = arg.format || 'png',
-        quality = arg.quality || null,
+        quality = arg.quality || ( format === 'png' ? 256 : 85 ),
         limit = arg.limit || 19008,
         tileSize = arg.tileSize || 256;
 

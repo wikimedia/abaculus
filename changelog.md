@@ -1,5 +1,8 @@
 # CHANGELOG
 
+# v3.2.0
+* Add defaults for the quality to support lib-mapnik 3.1.x
+
 # v3.1.1
 * Fixes tile size calculation
 * Bump dependencies
