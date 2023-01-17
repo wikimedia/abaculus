@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@mapbox/sphericalmercator": "^1.2.0",
-    "mapnik": "^4.2.1",
+    "mapnik": "3.x || 4.x",
     "d3-queue": "^3.0.7"
   },
   "devDependencies": {
